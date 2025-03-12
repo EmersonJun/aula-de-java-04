@@ -10,6 +10,7 @@ public class App {
 
         Carro Carro2 = new Carro("fiat", "uno");
 
+
         System.out.println("marca: " +Carro1.marca);
         System.out.println("modelo: " +Carro1.modelo);
         System.out.println("ligado: " +Carro1.ligado);
@@ -19,5 +20,16 @@ public class App {
         System.out.println("modelo: " +Carro2.modelo);
         System.out.println("ligado: " +Carro2.ligado);
         System.out.println("andando: " +Carro2.andando);
+
+        pessoa();
+
+    }
+
+
+    public static void pessoa(){
+        Pessoa ex1 = new Pessoa("carlo", 15);
+        Pessoa ex2 = new Pessoa("carlos", 16);
+        Pessoa ex3 = new Pessoa("carlinhos", 14);
+            System.out.println(ex1.Apresentar());
     }
 }
