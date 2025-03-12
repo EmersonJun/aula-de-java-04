@@ -21,9 +21,10 @@ public class App {
     //     System.out.println("ligado: " +Carro2.ligado);
     //     System.out.println("andando: " +Carro2.andando);
 
-    //     pessoa();
-    //     livro();
-    contabancaria();
+    //   ex1  pessoa();
+    //   ex2  livro();
+    //   ex3  contabancaria();
+    triangulo();
      }
 
         //ex1
@@ -41,22 +42,33 @@ public class App {
     // }
 
        //ex3
-       public static void contabancaria(){
-        String titular = null;
-        int numerodaconta, saldo = 0;
-        boolean sacar, depositar, imprimir;
-       contabancaria conta1 = new contabancaria(titular, saldo, saldo);
-        conta1.titular = "pedro";
-        conta1.numerodaconta = 12345;
-        conta1.saldo = 99999999;
-        conta1.imprimir();
-        conta1.sacar();
-           System.out.println("titular: "+conta1.titular);
-           System.out.println("numero da conta: "+conta1.numerodaconta);
-           System.out.println("saldo: "+conta1.saldo);
-           System.out.println("imprimir: " +conta1.imprimir);
-           System.out.println("sacar: "+conta1.sacar);
-           System.out.println("depositar: "+conta1.depositar);
+    //    public static void contabancaria(){
+    //     String titular = null;
+    //     int numerodaconta, saldo = 0;
+    //     boolean sacar, depositar, imprimir;
+    //    contabancaria conta1 = new contabancaria(titular, saldo, saldo);
+    //     conta1.titular = "pedro";
+    //     conta1.numerodaconta = 12345;
+    //     conta1.saldo = 99999999;
+    //     conta1.imprimir();
+    //     conta1.sacar();
+    //        System.out.println("titular: "+conta1.titular);
+    //        System.out.println("numero da conta: "+conta1.numerodaconta);
+    //        System.out.println("saldo: "+conta1.saldo);
+    //        System.out.println("imprimir: " +conta1.imprimir);
+    //        System.out.println("sacar: "+conta1.sacar);
+    //        System.out.println("depositar: "+conta1.depositar);
+    // }
+
+       //ex4
+    public static void triangulo(){
+        float area = 0, base = 0, altura = 0;
+        triangulo triangulo1 = new triangulo(area, altura, base);
+        triangulo1.altura = 5;
+        triangulo1.base = 3;
+        
+        System.out.println("area: "+triangulo1.area());
+
     }
 }
 
