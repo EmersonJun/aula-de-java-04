@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-
+ 
     //     Carro Carro1 = new Carro();
     //     Carro1.marca = "peugeot";
     //     Carro1.modelo = "208";
@@ -23,9 +23,10 @@ public class App {
 
     //     pessoa();
     //     livro();
+    contabancaria();
      }
 
-        //ex2
+        //ex1
     // public static void pessoa(){
     //     Pessoa ex1 = new Pessoa("carlo", 15);
     //     Pessoa ex2 = new Pessoa("carlos", 16);
@@ -33,10 +34,29 @@ public class App {
     //         System.out.println(ex1.Apresentar());
 
 
-       //ex3
+       //ex2
     // public static void livro(){
     //     livro livro1 = new livro("dom quichote", "pedro", 1253);
     //     System.out.println(livro1.Apresentar());
     // }
+
+       //ex3
+       public static void contabancaria(){
+        String titular = null;
+        int numerodaconta, saldo = 0;
+        boolean sacar, depositar, imprimir;
+       contabancaria conta1 = new contabancaria(titular, saldo, saldo);
+        conta1.titular = "pedro";
+        conta1.numerodaconta = 12345;
+        conta1.saldo = 99999999;
+        conta1.imprimir();
+        conta1.sacar();
+           System.out.println("titular: "+conta1.titular);
+           System.out.println("numero da conta: "+conta1.numerodaconta);
+           System.out.println("saldo: "+conta1.saldo);
+           System.out.println("imprimir: " +conta1.imprimir);
+           System.out.println("sacar: "+conta1.sacar);
+           System.out.println("depositar: "+conta1.depositar);
+    }
 }
 
