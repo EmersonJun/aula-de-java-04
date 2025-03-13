@@ -8,7 +8,7 @@ public class App {
     //     Carro1.ligar();
     //     Carro1.andar();
 
-    //     Carro Carro2 = new Carro("fiat", "uno");
+    //     Carro Carro2 = new Carro("fiat", "uno");c
 
 
     //     System.out.println("marca: " +Carro1.marca);
@@ -25,6 +25,13 @@ public class App {
     //   ex2  livro();
     //   ex3  contabancaria();
     //   ex4  triangulo();
+      cafeteira nespresso = new cafeteira();
+      nespresso.enchercafe(2);
+      nespresso.encheragua(100);
+      System.out.println(
+         (nespresso.fazercafe())? "cafe pronto" : "acabou o cafe"
+      );
+      
      }
 
         //ex1
@@ -70,5 +77,8 @@ public class App {
     //     System.out.println("area: "+triangulo1.area());
 
     // }
+
+      //ex5
+      
 }
 
