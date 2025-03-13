@@ -24,7 +24,7 @@ public class App {
     //   ex1  pessoa();
     //   ex2  livro();
     //   ex3  contabancaria();
-    triangulo();
+    //   ex4  triangulo();
      }
 
         //ex1
@@ -61,14 +61,14 @@ public class App {
     // }
 
        //ex4
-    public static void triangulo(){
-        float area = 0, base = 0, altura = 0;
-        triangulo triangulo1 = new triangulo(area, altura, base);
-        triangulo1.altura = 5;
-        triangulo1.base = 3;
+    // public static void triangulo(){
+    //     float area = 0, base = 0, altura = 0;
+    //     triangulo triangulo1 = new triangulo(area, altura, base);
+    //     triangulo1.altura = 5;
+    //     triangulo1.base = 3;
         
-        System.out.println("area: "+triangulo1.area());
+    //     System.out.println("area: "+triangulo1.area());
 
-    }
+    // }
 }
 
